@@ -83,6 +83,8 @@ const Sidebar = () => {
         >
           <Text className='txt-comp'>Progress Bar</Text>
         </Link>
+
+        <Text fontWeight={600} fontSize='18px' position='absolute' bottom='25px' left='40px'>Made with ❤ by Yash Mantri</Text>
       </div>
       <div className='right-half'>
         {window.innerWidth > 681 ? <Main /> : ''}
