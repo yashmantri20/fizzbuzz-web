@@ -6,7 +6,7 @@ import Code from '../CodeBlock/Code';
 const ButtonDemo = () => {
   return (
     <Box id='button'>
-      <Text fontSize={24} fontWeight={600} mt={8} letterSpacing={1}>
+      <Text fontSize={28} fontWeight={600} mt={8} letterSpacing={1}>
         Button
       </Text>
 
@@ -71,7 +71,7 @@ const ButtonDemo = () => {
       />
 
       <Text fontSize={24} fontWeight={600} mt={6} mb={4}>
-        Button Sizes
+        Button Rounded
       </Text>
 
       <Button

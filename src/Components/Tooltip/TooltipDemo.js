@@ -7,7 +7,7 @@ import Code from '../CodeBlock/Code';
 const TooltipDemo = () => {
   return (
     <div id='tooltip'>
-      <Text fontSize={24} fontWeight={600} mt={8} letterSpacing={1}>
+      <Text fontSize={28} fontWeight={600} mt={8} letterSpacing={1}>
         Tooltip
       </Text>
 

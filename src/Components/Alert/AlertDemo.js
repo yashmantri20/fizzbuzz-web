@@ -10,7 +10,7 @@ const AlertDemo = () => {
       <Text fontSize={28} fontWeight={700} mt={8}>
         Components
       </Text>
-      <Text fontSize={24} fontWeight={600} mt={8} letterSpacing={1}>
+      <Text fontSize={28} fontWeight={600} mt={8} letterSpacing={1}>
         Alert
       </Text>
 

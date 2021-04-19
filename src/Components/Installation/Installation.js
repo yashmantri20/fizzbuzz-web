@@ -1,14 +1,14 @@
-import { Box, Text } from '@chakra-ui/layout';
+import { Text } from '@chakra-ui/layout';
 import React from 'react';
 import Code from '../CodeBlock/Code';
 
 const Installation = () => {
   return (
     <div id='start'>
-      <Text fontSize={28} fontWeight={600} mt={14}>
+      <Text fontSize={28} fontWeight={600} mt={20}>
         Getting Started
       </Text>
-      <Text fontSize={24} fontWeight={600} mt={4} letterSpacing={1}>
+      <Text fontSize={28} fontWeight={600} mt={8} letterSpacing={1}>
         Installation
       </Text>
 

@@ -1,19 +1,12 @@
 import './App.css';
 import React from 'react';
 import Sidebar from './Components/Sidebar/Sidebar';
-import Installation from './Components/Installation/Installation';
-import AlertDemo from './Components/Alert/AlertDemo';
-import ButtonDemo from './Components/Button/ButtonDemo';
-import AvatarDemo from './Components/Avatar/AvatarDemo';
-import ScrollToTopDemo from './Components/ScrollToTop/ScrollToTopDemo';
-import TooltipDemo from './Components/Tooltip/TooltipDemo';
-import ImageDemo from './Components/Image/ImageDemo';
-import SpinnerDemo from './Components/Loader/LoaderDemo';
-import ProgressDemo from './Components/Progress/ProgressDemo';
-import { Box } from '@chakra-ui/layout';
+import { Box, Flex, Text } from '@chakra-ui/layout';
 import Navbar from './Components/Navbar/Navbar';
 import DrawerComp from './Components/Navbar/Drawer';
 import Main from './Components/Main';
+import { Image } from '@chakra-ui/image';
+import logo from './Components/Navbar/logo.png'
 
 function App() {
   return (
@@ -27,7 +20,14 @@ function App() {
 
       <Box className='mobile'>
         <Box className='mobile-navbar' pt='6px'>
-          <DrawerComp />
+          <Flex>
+            <Image src={logo} width='70px' height='50px' flex='1' draggable={false} />
+            <Text pl={1} my='auto' color='white' fontWeight={600} fontSize={20}>FizzBuzz</Text>
+            <Box flex='20' pt='6px'>
+              <DrawerComp />
+            </Box>
+          </Flex>
+
         </Box>
 
         <Box p={4}>
@@ -35,9 +35,7 @@ function App() {
         </Box>
       </Box>
     </>
-    // <>
 
-    // </>
   );
 }
 

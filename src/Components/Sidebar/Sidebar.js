@@ -1,15 +1,6 @@
 import { Text } from '@chakra-ui/layout';
-import React, { useState } from 'react';
-import AlertDemo from '../Alert/AlertDemo';
-import AvatarDemo from '../Avatar/AvatarDemo';
-import ButtonDemo from '../Button/ButtonDemo';
-import ImageDemo from '../Image/ImageDemo';
-import Installation from '../Installation/Installation';
-import SpinnerDemo from '../Loader/LoaderDemo';
-import ProgressDemo from '../Progress/ProgressDemo';
-import ScrollToTopDemo from '../ScrollToTop/ScrollToTopDemo';
+import React from 'react';
 import './Sidebar.css';
-import TooltipDemo from '../Tooltip/TooltipDemo';
 import { Link } from 'react-scroll';
 import Main from '../Main';
 
@@ -20,7 +11,7 @@ const Sidebar = () => {
         <Text
           fontSize={[12, 14, 16, 20]}
           fontWeight={600}
-          mt={16}
+          mt={20}
           letterSpacing={1}
         >
           GETTING STARTED
