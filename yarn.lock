@@ -5804,10 +5804,10 @@ find-up@^3.0.0:
   dependencies:
     locate-path "^3.0.0"
 
-fizzbuzz-ui@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/fizzbuzz-ui/-/fizzbuzz-ui-1.0.4.tgz#867ab07f59068f61e13339d281a408a1515139a5"
-  integrity sha512-pHkC+pjeCsflq6oEBtZaOSry10onQPx9Dy5oU+qwgvuzwMhe9HKTA2vXMu98iNIRxNin/n+gHpSWer0AFcEGWg==
+fizzbuzz-ui@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/fizzbuzz-ui/-/fizzbuzz-ui-1.0.8.tgz#14bfcee7b813d88f7725c16258688839c44e7c34"
+  integrity sha512-uKzF6sWdRn70HLFtK7PtM5f5zX2GjybSiyMY3vFZewVWwR5gDMU5BUapcBCBDMafSgRSJq5LamZtmheZYQgvsw==
 
 flat-cache@^3.0.4:
   version "3.0.4"
