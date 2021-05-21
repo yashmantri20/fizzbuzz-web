@@ -7,10 +7,12 @@ import DrawerComp from './Components/Navbar/Drawer';
 import Main from './Components/Main';
 import { Image } from '@chakra-ui/image';
 import logo from './Components/Navbar/logo.png'
+import GithubRibbon from './Utils/GithubRibbon';
 
 function App() {
   return (
     <>
+      <GithubRibbon />
       <Box style={{ height: '140vh' }} className='desktop'>
         <Navbar />
         <Box>

@@ -21,6 +21,9 @@
   .desktop {
     display: none;
   }
+  .ribbon{
+    display: none;
+  }
   .imageround-desktop {
     display: none;
   }
